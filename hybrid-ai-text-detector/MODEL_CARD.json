@@ -1,0 +1,24 @@
+{
+  "project": "Hybrid AI-Generated Text Detection Framework",
+  "deployment_bundle": "deployment_best_hybrid.joblib",
+  "feature_condition": "Hybrid",
+  "model": "Calibrated Linear SVM",
+  "training_sources": [
+    "HC3",
+    "DAIGT"
+  ],
+  "minimum_words": 50,
+  "bundle_sklearn_version": "1.6.1",
+  "combined_heldout_metrics_from_bundle": {
+    "accuracy": 0.9850190114068441,
+    "balanced_accuracy": 0.9844897233308022,
+    "precision": 0.9833905037010291,
+    "recall": 0.9810878962536023,
+    "f1": 0.982237850509422,
+    "roc_auc": 0.9986598977965535
+  },
+  "cross_dataset_stress_test": {
+    "HC3_to_DAIGT_f1": 0.5468,
+    "DAIGT_to_HC3_f1": 0.6553
+  }
+}

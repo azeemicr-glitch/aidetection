@@ -1,0 +1,11 @@
+Test ID,Test area,Input / action,Expected result,Actual result,Status
+FT01,Model loading,Start application,Deployment bundle loads without error,To be completed after deployment,Pending
+FT02,Empty input,Click Analyse text with no text,Clear warning asks user to enter text,To be completed after deployment,Pending
+FT03,Minimum length,Submit fewer than 50 words,Length warning shown and no prediction returned,To be completed after deployment,Pending
+FT04,Valid text,Submit at least 50 words,Prediction confidence and feature summary displayed,To be completed after deployment,Pending
+FT05,Probability output,Submit valid text,Human and AI probabilities are available and sum to approximately 1,To be completed after deployment,Pending
+FT06,Text upload,Upload a UTF-8 TXT file,Uploaded text populates the analysis input,To be completed after deployment,Pending
+FT07,Technical details,Run valid analysis and expand Technical details,Model feature condition and TF-IDF settings displayed,To be completed after deployment,Pending
+FT08,Research limitation,View prediction output,Probabilistic-use warning is clearly visible,To be completed after deployment,Pending
+FT09,Hosted deployment,Open public Streamlit URL,Application loads successfully on Streamlit Community Cloud,To be completed after deployment,Pending
+FT10,Hosted inference,Run valid text on hosted application,Hosted application returns a valid prediction without retraining,To be completed after deployment,Pending
